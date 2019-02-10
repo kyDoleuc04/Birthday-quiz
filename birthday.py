@@ -43,23 +43,23 @@ birthday = float(input("What day were you born on? "))
 
 if birthmonth=="October" and int(birthday)==31:
     print("You were born on Halloween!")
-elif birthmonth==todaymonth and birthday==todaydate
+elif birthmonth==todaymonth and birthday==todaydate:
     print("Happy birthday!")
 else: 
-    if birthmonth=="December","January",or "February"
+    if birthmonth=="December","January",or "February":
         season="winter"
-    elif birthmonth=="March","April",or "May"
+    elif birthmonth=="March","April",or "May":
         season="spring"
-    elif  birthmonth=="June","July",or "August"
+    elif  birthmonth=="June","July",or "August":
         season="summer"
-    elif birthmonth=="September","October",or "November"
+    elif birthmonth=="September","October",or "November":
         season="fall"
-    if int(birthyear)>=2000
+    if int(birthyear)>=2000:
         era="two thousands"
-    elif 1990<=int(birthyear)<2000
+    elif 1990<=int(birthyear)<2000:
         era="nineties"
-    elif 1980<=int(birthyear)<1990
+    elif 1980<=int(birthyear)<1990:
         era="eighties"
-    elif int(birthyear)<1980
+    elif int(birthyear)<1980:
         era="Stone Age"
 print(name,"your are a",season,"baby of the",era+".")
