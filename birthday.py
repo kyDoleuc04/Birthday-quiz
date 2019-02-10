@@ -54,4 +54,12 @@ else:
         season="summer"
     elif birthmonth=="September","October",or "November"
         season="fall"
-    if int(birthyear)>
+    if int(birthyear)>=2000
+        era="two thousands"
+    elif 1990<=int(birthyear)<2000
+        era="nineties"
+    elif 1980<=int(birthyear)<1990
+        era="eighties"
+    elif int(birthyear)<1980
+        era="Stone Age"
+print(name,"your are a",season,"baby of the",era+".")
