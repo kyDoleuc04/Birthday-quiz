@@ -42,10 +42,11 @@ birthmonth = input()
 print("And what year were you born in,",name+"? ")
 birthyear = float(input())
 birthday = float(input("And the day? "))
+month = month_name[todaymonth]
 
 if birthmonth=="October" and int(birthday)==31:
     print("You were born on Halloween!")
-elif birthmonth==todaymonth and birthday==todaydate:
+elif birthmonth==month and birthday==int(todaydate):
     print("Happy birthday!")
 else: 
     if birthmonth=="December" or birthmonth=="January" or birthmonth=="February":
@@ -64,4 +65,4 @@ else:
         era="eighties"
     elif int(birthyear)<1980:
         era="Stone Age"
-print(name+", you are a",season,"baby of the",era+".")
+    print(name+", you are a",season,"baby of the",era+".")
