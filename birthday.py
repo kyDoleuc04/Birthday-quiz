@@ -1,7 +1,7 @@
 """
 birthday.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: kyDoleuc04
+Credit: Mr. Dennison
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -46,13 +46,13 @@ if birthmonth=="October" and int(birthday)==31:
 elif birthmonth==todaymonth and birthday==todaydate:
     print("Happy birthday!")
 else: 
-    if birthmonth=="December","January",or "February":
+    if birthmonth=="December" or birthmonth=="January" or birthmonth=="February":
         season="winter"
-    elif birthmonth=="March","April",or "May":
+    elif birthmonth=="March" or birthmonth=="April" or birthmonth=="May":
         season="spring"
-    elif  birthmonth=="June","July",or "August":
+    elif  birthmonth=="June" or birthmonth=="July" or birthmonth=="August":
         season="summer"
-    elif birthmonth=="September","October",or "November":
+    elif birthmonth=="September" or birthmonth=="October" or birthmonth=="November":
         season="fall"
     if int(birthyear)>=2000:
         era="two thousands"
@@ -62,4 +62,4 @@ else:
         era="eighties"
     elif int(birthyear)<1980:
         era="Stone Age"
-print(name,"your are a",season,"baby of the",era+".")
+print(name+", you are a",season,"baby of the",era+".")
