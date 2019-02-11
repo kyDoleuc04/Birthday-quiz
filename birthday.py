@@ -36,10 +36,12 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
-name = input("What is your name? ")
-birthmonth = input("What is the name of the month you were born in? ")
-birthyear = float(input("What year were you born in?" ))
-birthday = float(input("What day were you born on? "))
+name = input("Hello, what is your name? ")
+print("Hi",name+",","What is the name of the month you were born in? ")
+birthmonth = input()
+print("And what year were you born in,",name+"? ")
+birthyear = float(input())
+birthday = float(input("And the day? "))
 
 if birthmonth=="October" and int(birthday)==31:
     print("You were born on Halloween!")
